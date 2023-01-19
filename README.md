@@ -1,7 +1,7 @@
 # slang-stt
 
 ## 모델 설명
-![image](https://user-images.githubusercontent.com/68102387/213361158-da1865d6-3cec-4dfc-b185-c12362dc8005.png)
+![image](https://user-images.githubusercontent.com/68102387/213361376-2fd26a2c-285a-4692-abd8-59cd8a436f4c.png)
 
 slang-stt 모델은 은어∙속어를 음성을 인식하여 텍스트로 변환하는 한국어 음성모델입니다. 은어와 속어가 포함되어 있는 연령대별 특징적 발화 음성 데이터를 전사하여 텍스트로 나타냅니다(speech to text). 
 
