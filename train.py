@@ -6,8 +6,7 @@ import numpy as np
 import argparse
 
 p = argparse.ArgumentParser() 
-p.add_argument('--model_final', required=True) 
-p.add_argument('--basemodel_path', required=True) 
+p.add_argument('--slang_model', required=True) 
 p.add_argument('--num_train_epochs', type=int, default=3) 
 p.add_argument('--batch_size', type=int, default=4) 
 p.add_argument('--weight_decay', type=float, default=0.005) 
@@ -495,7 +494,7 @@ model.freeze_feature_extractor()
 from transformers import TrainingArguments
 
 training_args = TrainingArguments(
-  output_dir=config.model_final, # 모델을 저장할 위치
+  output_dir=config.slang_model, # 모델을 저장할 위치
   group_by_length=True,          # training 데이터셋의 샘플들을 비슷한 길이끼리 grouping할 것인지 (패딩 최소화, 보다 효율적, 동적 패딩 적용시 유용)
   per_device_train_batch_size=config.batch_size, # training할 때의 batch size
   per_device_eval_batch_size=config.batch_size,  # evaluation할 때의 batch size
@@ -541,7 +540,7 @@ dictionary = {"bos_token": "<s>",
 json_object = json.dumps(dictionary, indent=4)
  
 # Writing to sample.json
-with open(model_final+"/special_tokens_map.json", "w") as outfile:
+with open(slang_model+"/special_tokens_map.json", "w") as outfile:
     outfile.write(json_object)
 
 false=False
@@ -554,19 +553,19 @@ dictionary = {"unk_token": "[UNK]",
               "replace_word_delimiter_char": " ", 
               "tokenizer_class": "Wav2Vec2CTCTokenizer"}
 json_object = json.dumps(dictionary, indent=4)
-with open(model_final+"/tokenizer_config.json", "w") as outfile:
+with openslang_model+"/tokenizer_config.json", "w") as outfile:
     outfile.write(json_object)
 
 dictionary = {"bos_token": "<s>", "eos_token": "</s>", "unk_token": "[UNK]", "pad_token": "[PAD]"}
 json_object = json.dumps(dictionary, indent=4)
-with open(model_final+"/special_tokens_map.json", "w") as outfile:
+with open(slang_model+"/special_tokens_map.json", "w") as outfile:
     outfile.write(json_object)
 
 import shutil
 
 original = r'vocab.json'
-target = r''+ model_final + '/vocab.json'
+target = r''+ slang_model + '/vocab.json'
 
 shutil.copyfile(original, target)
 
-trainer.save_model(model_final) # 모델 저장
+trainer.save_model(slang_model) # 모델 저장
