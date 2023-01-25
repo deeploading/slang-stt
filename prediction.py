@@ -2,7 +2,7 @@ import argparse
 
 p = argparse.ArgumentParser() 
 p.add_argument('--data_path', required=True)  # 평가용 데이터 위치
-p.add_argument('--model_path', required=True) # 모델 위치
+p.add_argument('--slang_model', type=str, default="DeepLoading/slang-stt") # 모델 위치
 config=p.parse_args() 
 
 
@@ -15,7 +15,7 @@ import pydub
 
 conv_text, conv_file, conv_path = [], [], []
 
-path = './test_data' + '/라벨링데이터/대화'
+path = config.data_path + '/라벨링데이터/대화'
 for (dirpath, dirnames, filenames) in os.walk(path):
     for filename in filenames:
         with open(dirpath + "/" + filename, 'r', encoding='utf-8') as f:
@@ -36,7 +36,7 @@ for (dirpath, dirnames, filenames) in os.walk(path):
 
 split_file, split_text, split_filepath, save_filepath = [], [], [], []
 
-path = './test_data' + '/원천데이터/분할대화/'
+path = config.data_path + '/원천데이터/분할대화/'
 for fileno in range(len(conv_file)):
     for i in range(len(conv_text[fileno])):
         split_file.append(conv_file[fileno])
@@ -417,8 +417,8 @@ def join_jamos(s, ignore_err=True):
 
 # Importing Wav2Vec pretrained model from local
 
-tokenizer = Wav2Vec2Tokenizer.from_pretrained(config.model_path)
-model = Wav2Vec2ForCTC.from_pretrained(config.model_path)
+tokenizer = Wav2Vec2Tokenizer.from_pretrained(config.slang_model)
+model = Wav2Vec2ForCTC.from_pretrained(config.slang_model)
 
 eval_text, eval_files, eval_filename, eval_save_path = [], [], [], []
 for i in range(len(eval_data)):
@@ -472,9 +472,9 @@ for i in range(len(transcriptions)):
     CER_sum.append(result['cer']*100)
 
 avg = sum(CER_sum, 0.0) / len(CER_sum)  # 평균 CER 계산 
-print("CER : ", avg*100, "%")
+print("CER : ", avg, "%")
 
 predict_df = pd.DataFrame(zip(eval_filename, eval_save_path, transcriptions, CER_sum), columns = ['title', 'path', 'prediction', 'CER'])
 predict_df
-predict_df.to_csv('./slang-stt.csv', index = False)
+predict_df.to_csv('./stt_result.csv', index = False)
 
