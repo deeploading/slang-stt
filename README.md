@@ -62,7 +62,7 @@ python prediction.py
 ```  
 
 ## 평가 기준
-음성 인식의 정확도를 측정하는 지표인 CER(Character Error Rate)을 사용하여 성능을 측정하였으며, 모델의 CER 결과는 12.5입니다.   
+음성 인식의 정확도를 측정하는 지표인 CER(Character Error Rate)을 사용하여 성능을 측정하였으며, 모델의 CER 결과는 13입니다.   
 
 ## License
 MIT License
