@@ -31,23 +31,26 @@ Docker 20.10.21
 연령대별 특징적 발화(은어∙속어 등) 원천 데이터   
 
 ## 하이퍼파라미터
+### 모델 학습
 ● num_train_epochs: epoch 개수  
 ● batch_size: batch 사이즈  
 ● weight_decay: 가중치 감쇠, 기존 값 0.05  
 ● learning_rate: 학습률, 기존 값 5e-5  
 ● step_size: 학습 중 체크포인트를 저장할 스텝 단위, 기존 값 500
 
+### 모델로 예측
+● slang_model: 사용할 모델 경로. 로컬 모델을 지정할 수 있다. 지정하지 않을 시에는 huggingface에 업로드된 모델을 사용한다.
+
 ## 실행 방법
-### 데이터전처리리
+### 데이터전처리
 ```
 python preprocessing.py 
---data_path ./data \
+--data_path ./dataset \
 ```  
 ### 모델 학습 
 ```
 python train.py \
---model_final ./model_final \
---basemodel_path ./basemodel_path \
+--slang_model ./slang_model \
 --num_train_epochs 3 \
 --batch_size 4 \
 --weight_decay 0.005 \
@@ -57,8 +60,8 @@ python train.py \
 ### 모델로 예측 
 ```
 python prediction.py 
---data_path ./data \
---model_path ./model_path
+--data_path ./dataset \
+--slang_model ./slang_model
 ```  
 
 ## 평가 기준
