@@ -372,7 +372,7 @@ from transformers import Wav2Vec2CTCTokenizer
 # json 파일을 이용해 Wav2Vec2CTCTokenizer 초기화
 tokenizer = Wav2Vec2CTCTokenizer("vocab.json", unk_token="[UNK]", pad_token="[PAD]", word_delimiter_token="|")
 
-model_final = config.model_final
+slang_model = config.slang_model
 
 from transformers import Wav2Vec2FeatureExtractor
 
