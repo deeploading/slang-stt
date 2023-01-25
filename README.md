@@ -34,8 +34,8 @@ Docker 20.10.21
 ### 모델 학습
 ● num_train_epochs: epoch 개수  
 ● batch_size: batch 사이즈  
-● weight_decay: 가중치 감쇠, 기존 값 0.05  
-● learning_rate: 학습률, 기존 값 5e-5  
+● weight_decay: 가중치 감쇠, 기존 값 0.005  
+● learning_rate: 학습률, 기존 값 1e-5  
 ● step_size: 학습 중 체크포인트를 저장할 스텝 단위, 기존 값 500
 
 ## 파라미터
