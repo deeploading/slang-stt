@@ -476,7 +476,7 @@ def compute_metrics(pred):
 from transformers import Wav2Vec2ForCTC
 
 model = Wav2Vec2ForCTC.from_pretrained(
-    config.basemodel_path,
+    "facebook/wav2vec2-xls-r-1b",
     attention_dropout=0.0,
     hidden_dropout=0.0,
     feat_proj_dropout=0.0,
