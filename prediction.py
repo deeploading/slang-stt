@@ -2,7 +2,7 @@ import argparse
 
 p = argparse.ArgumentParser() 
 p.add_argument('--data_path', required=True)  # 평가용 데이터 위치
-p.add_argument('--slang_model', type=str, default="DeepLoading/slang-stt") # 모델 위치.  로컬 모델을 지정할 수 있음. 지정하지 않을 시에는 huggingface에 업로드된 모델을 사용.
+p.add_argument('--slang_model', type=str, default="DeepLoading/slang-stt") # 모델 위치. 로컬 모델을 지정할 수 있음. 지정하지 않을 시에는 huggingface에 업로드된 모델을 사용.
 config=p.parse_args() 
 
 
