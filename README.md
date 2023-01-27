@@ -47,7 +47,7 @@ Docker 20.10.21
 ● slang_model: 사용할 모델 경로. 지정하지 않을 시에는 huggingface에 업로드된 모델을 사용합니다.
 
 ## 실행 방법
-### 데이터전처리
+### 데이터 전처리
 ```
 python preprocessing.py 
 --data_path ./dataset \
