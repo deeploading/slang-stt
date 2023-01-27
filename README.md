@@ -70,7 +70,7 @@ python prediction.py
 --data_path ./dataset \
 --slang_model ./slang_model
 ```  
-[./slang_model] 모델을 사용하여 [./data_path]의 은어와 속어가 포함된 음성 데이터를 인식하여 문자 데이터로 변환합니다.
+[./slang_model] 모델을 사용하여 [./data_path]의 은어와 속어가 포함된 음성 데이터를 인식하여 문자 데이터로 변환합니다. 프로그램 실행 후 파일 제목, 파일 경로, 음성인식 결과, CER을 포함한 [./stt_result.csv] 파일이 생성됩니다.
 
 ## 평가 기준
 음성 인식의 정확도를 측정하는 지표인 CER(Character Error Rate)을 사용하여 성능을 측정하였으며, 모델의 CER 결과는 13입니다.   
