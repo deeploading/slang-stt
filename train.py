@@ -4,7 +4,6 @@ import numpy as np
 import warnings
 warnings.filterwarnings("ignore")
 
-
 import argparse
 p = argparse.ArgumentParser() 
 p.add_argument('--slang_model', required=True) 
