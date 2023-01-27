@@ -42,7 +42,7 @@ Docker 20.10.21
 ● step_size: 학습 중 체크포인트를 저장할 스텝 단위, 기존 값 500
 
 ### 모델로 예측
-● data_path: 데이터 저장 경로
+● data_path: 데이터 저장 경로    
 ● slang_model: 사용할 모델 경로. 지정하지 않을 시에는 huggingface에 업로드된 모델을 사용.
 
 ## 실행 방법
