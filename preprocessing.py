@@ -44,22 +44,22 @@ for (dirpath, dirnames, filenames) in os.walk(path):
 
 import os
 path = config.data_path + '/원천데이터/분할대화'
-os.mkdir(path)
+if os.path.isdir(path) is not True:
+    os.mkdir(path)
 
+    # starttime, endtime 기준으로 대화 audio 분할하기
+    from pydub import AudioSegment
 
-# starttime, endtime 기준으로 대화 audio 분할하기
-from pydub import AudioSegment
+    for fileno in range(len(file)):
+        audio_file = file_path[fileno]
+        audio = AudioSegment.from_wav(audio_file)
 
-for fileno in range(len(file)):
-    audio_file = file_path[fileno]
-    audio = AudioSegment.from_wav(audio_file)
-
-    for i in range(len(start_time[fileno])):
-        start = start_time[fileno][i] * 1000 #pydub works in millisec
-        end =  end_time[fileno][i] * 1000 #pydub works in millisec
-        # print("split at [ {}:{}] ms".format(start, end))
-        audio_chunk=audio[start:end]
-        audio_chunk.export(config.data_path + "/원천데이터/분할대화/{}_part{}.wav".format(file[fileno][:-4], i), format="wav")
+        for i in range(len(start_time[fileno])):
+            start = start_time[fileno][i] * 1000 #pydub works in millisec
+            end =  end_time[fileno][i] * 1000 #pydub works in millisec
+            # print("split at [ {}:{}] ms".format(start, end))
+            audio_chunk=audio[start:end]
+            audio_chunk.export(config.data_path + "/원천데이터/분할대화/{}_part{}.wav".format(file[fileno][:-4], i), format="wav")
 
 split_file, split_text, split_filepath = [], [], []
 
@@ -161,3 +161,4 @@ for i in tqdm(range(len(data))):
 data=data.sample(frac=1).reset_index(drop=True) # shuffle 후 index reset
 
 data.to_csv('./data.csv', index = False) # 전처리를 마친 데이터프레임을 csv 파일로 저장
+print("Preprocessing Complete")

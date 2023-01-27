@@ -570,3 +570,5 @@ target = r''+ slang_model + '/vocab.json'
 shutil.copyfile(original, target)
 
 trainer.save_model(slang_model) # 모델 저장
+
+print("Training Complete")

@@ -479,3 +479,4 @@ predict_df = pd.DataFrame(zip(eval_filename, eval_save_path, transcriptions, CER
 predict_df
 predict_df.to_csv('./stt_result.csv', index = False)
 
+print("Prediction Complete")
