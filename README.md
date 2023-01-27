@@ -30,7 +30,10 @@ Docker 20.10.21
 ## 학습 데이터셋
 연령대별 특징적 발화(은어∙속어 등) 원천 데이터   
 
-## 하이퍼파라미터
+## 파라미터
+### 데이터 전처리
+● data_path: 데이터 저장 경로. 모델 학습, 예측 시에도 모두 같은 경로의 데이터를 사용합니다.
+
 ### 모델 학습
 ● num_train_epochs: epoch 개수  
 ● batch_size: batch 사이즈  
@@ -38,9 +41,9 @@ Docker 20.10.21
 ● learning_rate: 학습률, 기존 값 1e-5  
 ● step_size: 학습 중 체크포인트를 저장할 스텝 단위, 기존 값 500
 
-## 파라미터
 ### 모델로 예측
-● slang_model: 사용할 모델 경로. 로컬 모델을 지정할 수 있다. 지정하지 않을 시에는 huggingface에 업로드된 모델을 사용한다.
+● data_path: 데이터 저장 경로
+● slang_model: 사용할 모델 경로. 지정하지 않을 시에는 huggingface에 업로드된 모델을 사용.
 
 ## 실행 방법
 ### 데이터전처리
@@ -48,6 +51,7 @@ Docker 20.10.21
 python preprocessing.py 
 --data_path ./dataset \
 ```  
+[./data_path]의 데이터를 AI 모델 훈련에 적합하게 전처리합니다. 프로그램 실행 후, [./dataset/원천데이터/분할대화] 폴더가 생성되며 [./dataset/원천데이터/대화] 카테고리의 데이터를 분할하여 저장합니다. 또한 원천 데이터 경로를 포함한 data.csv 파일을 생성합니다.
 ### 모델 학습 
 ```
 python train.py \
@@ -58,12 +62,14 @@ python train.py \
 --learning_rate 1e-4 \
 --step_size 500
 ```  
+사전 학습이 완료된 모델, [./data_path]의 데이터, 전처리 프로그램 실행 결과 생성된 data.csv 파일을 사용하여 학습합니다. [./slang_model]에 모델을 저장합니다.
 ### 모델로 예측 
 ```
 python prediction.py 
 --data_path ./dataset \
 --slang_model ./slang_model
 ```  
+[./slang_model] 모델을 사용하여 [./data_path]의 은어와 속어가 포함된 음성 데이터를 인식하여 문자 데이터로 변환합니다.
 
 ## 평가 기준
 음성 인식의 정확도를 측정하는 지표인 CER(Character Error Rate)을 사용하여 성능을 측정하였으며, 모델의 CER 결과는 13입니다.   
