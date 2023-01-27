@@ -1,10 +1,11 @@
 import torch
 import pandas as pd
 import numpy as np
+import warnings
+warnings.filterwarnings("ignore")
 
-# 도커에 필요한 코드
+
 import argparse
-
 p = argparse.ArgumentParser() 
 p.add_argument('--slang_model', required=True) 
 p.add_argument('--num_train_epochs', type=int, default=3) 

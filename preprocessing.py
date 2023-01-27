@@ -1,7 +1,8 @@
 import argparse
 import pydub
+import warnings
+warnings.filterwarnings("ignore")
 
-# 도커에 필요한 코드
 p = argparse.ArgumentParser()
 p.add_argument('--data_path', required=True)
 config=p.parse_args()

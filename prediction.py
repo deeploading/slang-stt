@@ -11,7 +11,8 @@ config=p.parse_args()
 import pandas as pd
 import json, os, tqdm
 import pydub
-
+import warnings
+warnings.filterwarnings("ignore")
 
 conv_text, conv_file, conv_path = [], [], []
 

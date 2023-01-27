@@ -1,0 +1,45 @@
+{
+  "DataSet":"연령대별특징적발화음성",
+  "Version":"1.0",
+  "Date":"20220901",
+  "MediaUrl":"문장/20대/25.음식/20_25_3004_220901_0101.wav",
+  "Category":"20대",
+  "SubCategory":"음식",
+  "DialogPlace":"집",
+  "DialogVoiceType":"독백",
+  "SpeakerNumber":"1",
+  "RecDevice":"스마트폰",
+  "RecLen":12.305,
+  "AudioResolution":{
+    "BitDepth":"16bit",
+    "SampleRate":"44.1kHz"
+  },
+  "Speakers":[
+    {
+      "Speaker":"3004",
+      "Gender":"여성",
+      "Locate":"전라",
+      "AgeGroup":"30"
+    }
+  ],
+  "Dialogs":[
+    {
+      "Speaker":"3004",
+      "SpeakerText":"나랑 친구는 맥도날드에 가면 베이컨이 꼭 들어간 베토디를 구매해서 먹어! 짭짤하고 적당한 기름기 있는 고기는 언제나 사랑이지!",
+      "TextConvert":"나랑 친구는 맥도날드에 가면 베이컨이 꼭 들어간 베이컨 토마토 디럭스를 구매해서 먹어! 짭짤하고 적당한 기름기 있는 고기는 언제나 사랑이지!",
+      "StartTime":1,
+      "EndTime":11.305,
+      "SpeakTime":10.305,
+      "WordInfo":[
+        {
+          "Word":"베토디",
+          "WordType":"줄임말",
+          "WordStructure":"축약어",
+          "WordDefine":"베이컨 토마토 디럭스의 준말 /맥도날드 메뉴",
+          "WordFell":"중립",
+          "WordMean":"감정없음"
+        }
+      ]
+    }
+  ]
+}

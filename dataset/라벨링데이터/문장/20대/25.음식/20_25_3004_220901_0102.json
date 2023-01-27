@@ -1,0 +1,45 @@
+{
+  "DataSet":"연령대별특징적발화음성",
+  "Version":"1.0",
+  "Date":"20220901",
+  "MediaUrl":"문장/20대/25.음식/20_25_3004_220901_0102.wav",
+  "Category":"20대",
+  "SubCategory":"음식",
+  "DialogPlace":"집",
+  "DialogVoiceType":"독백",
+  "SpeakerNumber":"1",
+  "RecDevice":"스마트폰",
+  "RecLen":14.489,
+  "AudioResolution":{
+    "BitDepth":"16bit",
+    "SampleRate":"44.1kHz"
+  },
+  "Speakers":[
+    {
+      "Speaker":"3004",
+      "Gender":"여성",
+      "Locate":"전라",
+      "AgeGroup":"30"
+    }
+  ],
+  "Dialogs":[
+    {
+      "Speaker":"3004",
+      "SpeakerText":"내 친구가 치킨 중에 파닭을 좋아하는데 오늘 치킨 시킬 때 걔한테 너는 당연히 파닭이지?라고 물어보니까 반맞반틀이라더라고 그래서 조금 어이가 없고 얄미웠었어.",
+      "TextConvert":"내 친구가 치킨 중에 파닭을 좋아하는데. 오늘 치킨 시킬 때  걔한테 너는 당연히 파닭이지?라고 물어보니까. 반은 맞고 반은 틀렸다더라고. 그래서 조금 어이가 없고 얄미웠었어.",
+      "StartTime":1,
+      "EndTime":13.489,
+      "SpeakTime":12.489,
+      "WordInfo":[
+        {
+          "Word":"반맞반틀",
+          "WordType":"줄임말",
+          "WordStructure":"축약어",
+          "WordDefine":"반은 맞고 반은 틀렸다의 줄임말.",
+          "WordFell":"중립",
+          "WordMean":"감정없음"
+        }
+      ]
+    }
+  ]
+}

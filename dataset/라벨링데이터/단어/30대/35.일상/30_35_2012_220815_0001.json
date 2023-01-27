@@ -1,0 +1,45 @@
+{
+  "DataSet":"연령대별특징적발화음성",
+  "Version":"1.0",
+  "Date":"20220815",
+  "MediaUrl":"단어/30대/35.일상/30_35_2012_220815_0001.wav",
+  "Category":"30대",
+  "SubCategory":"일상",
+  "DialogPlace":"집",
+  "DialogVoiceType":"독백",
+  "SpeakerNumber":"1",
+  "RecDevice":"스마트폰",
+  "RecLen":3.722,
+  "AudioResolution":{
+    "BitDepth":"16bit",
+    "SampleRate":"44.1kHz"
+  },
+  "Speakers":[
+    {
+      "Speaker":"2012",
+      "Gender":"남성",
+      "Locate":"강원",
+      "AgeGroup":"30"
+    }
+  ],
+  "Dialogs":[
+    {
+      "Speaker":"2012",
+      "SpeakerText":"식집사",
+      "TextConvert":"식물을 기르는 사람",
+      "StartTime":1,
+      "EndTime":2.722,
+      "SpeakTime":1.722,
+      "WordInfo":[
+        {
+          "Word":"식집사",
+          "WordType":"은어",
+          "WordStructure":"혼성어",
+          "WordDefine":"식물과 집사의 합성어로 반려 식물을 기르는 사람을 일컫는다. 고양이를 키우는 사람을 뜻하는 '집사'에서 유래된 것으로 식물을 가족같이 돌보며 애정을 쏟는 사람들을 표현하는 말이다",
+          "WordFell":"중립",
+          "WordMean":"감정없음"
+        }
+      ]
+    }
+  ]
+}

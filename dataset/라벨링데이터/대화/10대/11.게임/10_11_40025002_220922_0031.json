@@ -1,0 +1,626 @@
+{
+  "DataSet":"연령대별특징적발화음성",
+  "Version":"1.0",
+  "Date":"20220922",
+  "MediaUrl":"대화/10대/11.게임/10_11_40025002_220922_0031.wav",
+  "Category":"10대",
+  "SubCategory":"게임",
+  "DialogPlace":"집",
+  "DialogVoiceType":"음성통화",
+  "SpeakerNumber":"2",
+  "RecDevice":"스마트폰",
+  "RecLen":301.12,
+  "AudioResolution":{
+    "BitDepth":"16bit",
+    "SampleRate":"44.1kHz"
+  },
+  "Speakers":[
+    {
+      "Speaker":"4002",
+      "Gender":"여성",
+      "Locate":"수도권",
+      "AgeGroup":"10"
+    },
+    {
+      "Speaker":"5002",
+      "Gender":"여성",
+      "Locate":"수도권",
+      "AgeGroup":"10"
+    }
+  ],
+  "Dialogs":[
+    {
+      "Speaker":"4002",
+      "SpeakerText":"나 요즘 집에서 인방으로 메이플스토리영상 엄청 보고있어. 내가 최근에 메창을 다시 시작했거든.",
+      "TextConvert":"나 요즘 집에서 인터넷 방송으로 메이플스토리영상 엄청 보고있어. 내가 최근에 메이플스토리에 미친 인생을 다시 시작했거든.",
+      "StartTime":1.28,
+      "EndTime":9.89,
+      "SpeakTime":8.61,
+      "WordInfo":[
+        {
+          "Word":"인방",
+          "WordType":"줄임말",
+          "WordStructure":"축약어",
+          "WordDefine":"인터넷 방송'의 준말",
+          "WordFell":"중립",
+          "WordMean":"감정없음"
+        },
+        {
+          "Word":"메창",
+          "WordType":"속어",
+          "WordStructure":"축약어",
+          "WordDefine":"메이플 + O창인생 / '메이플스토리'에 미친 인생 이라는 단어",
+          "WordFell":"부정",
+          "WordMean":"싫어함"
+        }
+      ]
+    },
+    {
+      "Speaker":"5002",
+      "SpeakerText":"그렇구나. 방송은 재밌어? 어때? 인친들이 그러는데 메이플스토리 관련 방송이 뉴비들한테 엄청 도움 된다던데.",
+      "TextConvert":"그렇구나. 방송은 재밌어? 어때? 인스타그램 친구들이 그러는데 메이플스토리 관련 방송이 초보자들한테 엄청 도움 된다던데.",
+      "StartTime":10.88,
+      "EndTime":22.89,
+      "SpeakTime":12.01,
+      "WordInfo":[
+        {
+          "Word":"인친",
+          "WordType":"줄임말",
+          "WordStructure":"축약어",
+          "WordDefine":"인스타그램 친구의 줄임말",
+          "WordFell":"중립",
+          "WordMean":"감정없음"
+        },
+        {
+          "Word":"뉴비",
+          "WordType":"은어",
+          "WordStructure":"기타",
+          "WordDefine":"new be' 의 한글대체어로서 -초보자- 라는 뜻을 가지고 있다.",
+          "WordFell":"중립",
+          "WordMean":"감정없음"
+        }
+      ]
+    },
+    {
+      "Speaker":"4002",
+      "SpeakerText":"맞아. 몹들 잡을때 어느 사냥터가 좋은지나. 장템같은거 어떻게 사면 싸게살수 있는지 알려주는 경우가 많거든.",
+      "TextConvert":"맞아. 몬스터들 잡을때 어느 사냥터가 좋은지나. 장비용 재화 같은거 어떻게 사면 싸게살수 있는지 알려주는 경우가 많거든.",
+      "StartTime":23.38,
+      "EndTime":34.44,
+      "SpeakTime":11.06,
+      "WordInfo":[
+        {
+          "Word":"몹",
+          "WordType":"은어",
+          "WordStructure":"축약어",
+          "WordDefine":"플레이어의 적대적인 npc 혹은 몬스터를 칭함 / 'mobile character'의 약자 였으나 현재는 다른 의미로 사용됨",
+          "WordFell":"중립",
+          "WordMean":"감정없음"
+        },
+        {
+          "Word":"장템",
+          "WordType":"은어",
+          "WordStructure":"축약어",
+          "WordDefine":"RPG용 게임에서 흔히 쓰이는 표현으로서무기,방어구같은 장비용 아이템을 줄여서 쓰는 표현이다.",
+          "WordFell":"중립",
+          "WordMean":"감정없음"
+        }
+      ]
+    },
+    {
+      "Speaker":"5002",
+      "SpeakerText":"너가 보는 방송에서도 그런 설명해줘? 너는 무슨 방송 보고있어?",
+      "TextConvert":"너가 보는 방송에서도 그런 설명해줘? 너는 무슨 방송 보고있어?",
+      "StartTime":35.38,
+      "EndTime":41.84,
+      "SpeakTime":6.46,
+      "WordInfo":null
+    },
+    {
+      "Speaker":"4002",
+      "SpeakerText":"응. 나는 글자네라는 사람 방송보고 있어. 그 사람은 엄청 설명 자세하게 해주거든. 내가 이번에 숍을 처음 키워봐서 너무 막막했는데. 그 사람 인방보면서 하니까 엄청 쉽더라고",
+      "TextConvert":"응. 나는 글자네라는 사람 방송보고 있어. 그 사람은 엄청 설명 자세하게 해주거든. 내가 이번에 비숍을 처음 키워봐서 너무 막막했는데. 그 사람 인터넷 방송보면서 하니까 엄청 쉽더라고",
+      "StartTime":42.38,
+      "EndTime":58.59,
+      "SpeakTime":16.21,
+      "WordInfo":[
+        {
+          "Word":"숍",
+          "WordType":"은어",
+          "WordStructure":"축약어",
+          "WordDefine":"메이플에 등장하는 '비숍'이라는 직업을 숍으로 줄인말 / 가톨릭에서는 '주교'라는 뜻을 가지고 있다",
+          "WordFell":"중립",
+          "WordMean":"감정없음"
+        },
+        {
+          "Word":"인방",
+          "WordType":"줄임말",
+          "WordStructure":"축약어",
+          "WordDefine":"인터넷 방송'의 준말",
+          "WordFell":"중립",
+          "WordMean":"감정없음"
+        }
+      ]
+    },
+    {
+      "Speaker":"5002",
+      "SpeakerText":"그렇구나. 혹시 그 사람 레이드하는거도 설명해주고 그래? 요즘 나오는 레이드들은 엄청 어렵다던데 말이야.",
+      "TextConvert":"그렇구나. 혹시 그 사람 하나의 파티로는 공략이 힘들어\n그이상의 인원을 요구하는 pve 콘텐츠하는거도 설명해주고 그래? 요즘 나오는 하나의 파티로는 공략이 힘들어 그이상의 인원을 요구하는 pve 콘텐츠들은 엄청 어렵다던데 말이야.",
+      "StartTime":59.68,
+      "EndTime":70.64,
+      "SpeakTime":10.96,
+      "WordInfo":[
+        {
+          "Word":"레이드",
+          "WordType":"은어",
+          "WordStructure":"파생어",
+          "WordDefine":"Raider(약탈자,급습) 에서 파생 / MMORPG에서 하나의 파티 (4~5명의 유저)로는 공략이 힘들어\n그이상의 인원을 요구하는 pve 콘텐츠를 뜻함",
+          "WordFell":"중립",
+          "WordMean":"감정없음"
+        },
+        {
+          "Word":"레이드",
+          "WordType":"은어",
+          "WordStructure":"파생어",
+          "WordDefine":"Raider(약탈자,급습) 에서 파생 / MMORPG에서 하나의 파티 (4~5명의 유저)로는 공략이 힘들어\n그이상의 인원을 요구하는 pve 콘텐츠를 뜻함",
+          "WordFell":"중립",
+          "WordMean":"감정없음"
+        }
+      ]
+    },
+    {
+      "Speaker":"4002",
+      "SpeakerText":"응 그사람은 일보부터 주보까지 하나하나 다설명해주더라고. 나도 그사람 하는거 따라하면서 배웠더니 하드캐리도 가끔 하게된거 있지.",
+      "TextConvert":"응 그사람은 일간 보스부터 주간 보스까지 하나하나 다설명해주더라고. 나도 그사람 하는거 따라하면서 배웠더니 열심히 주도하는것 도 가끔 하게된거 있지.",
+      "StartTime":71.03,
+      "EndTime":82.99,
+      "SpeakTime":11.96,
+      "WordInfo":[
+        {
+          "Word":"일보",
+          "WordType":"은어",
+          "WordStructure":"축약어",
+          "WordDefine":"일간 보스'의 준말 / 게임에서 하루에 한번만 잡을 수 있는 보스",
+          "WordFell":"중립",
+          "WordMean":"감정없음"
+        },
+        {
+          "Word":"주보",
+          "WordType":"은어",
+          "WordStructure":"축약어",
+          "WordDefine":"주간 보스'의 준말 / 게임에서 주간에 한번만 잡을 수 있는 보스",
+          "WordFell":"중립",
+          "WordMean":"감정없음"
+        },
+        {
+          "Word":"하드캐리",
+          "WordType":"은어",
+          "WordStructure":"파생어",
+          "WordDefine":"캐리의 파생어로 어두에 hard라는 단어를 넣어 그 뜻을 강조한 것 / 열심히 캐리하다.",
+          "WordFell":"긍정",
+          "WordMean":"선의"
+        }
+      ]
+    },
+    {
+      "Speaker":"5002",
+      "SpeakerText":"아 그렇구나. 근데 메이플스토리 제대로 하려면 일단 고렙이 되야하잖아. 그사람이 렙업 빨리하는 방법도 알려줘?",
+      "TextConvert":"아 그렇구나. 근데 메이플스토리 제대로 하려면 일단 레벨이 높은 캐릭터가 되야하잖아. 그사람이 지위나 품질, 능력 따위를 높이는거 빨리하는 방법도 알려줘?",
+      "StartTime":84.28,
+      "EndTime":96.64,
+      "SpeakTime":12.36,
+      "WordInfo":[
+        {
+          "Word":"고렙",
+          "WordType":"줄임말",
+          "WordStructure":"합성어",
+          "WordDefine":"고 (한자 高) + 렙 (< 레벨) / (주로 게임 속 캐릭터의) 레벨이 높음, 또는 그런 캐릭터를 가진 사람.",
+          "WordFell":"긍정",
+          "WordMean":"선의"
+        },
+        {
+          "Word":"렙업",
+          "WordType":"줄임말",
+          "WordStructure":"합성어",
+          "WordDefine":"레벨+업의 준말 / 지위나 품질, 능력 따위를 높임. 또는 그렇게 됨.",
+          "WordFell":"긍정",
+          "WordMean":"선의"
+        }
+      ]
+    },
+    {
+      "Speaker":"4002",
+      "SpeakerText":"응 몹들 잘나오는 사냥터부터 레벨올리는데 도움주는 아이템들까지 전부다 자세히 설명해줘.",
+      "TextConvert":"응 몬스터들 잘나오는 사냥터부터 레벨올리는데 도움주는 게임 플레이를 통해 획득할 수 있는 가상의 물건들까지 전부다 자세히 설명해줘,",
+      "StartTime":97.13,
+      "EndTime":106.34,
+      "SpeakTime":9.21,
+      "WordInfo":[
+        {
+          "Word":"몹",
+          "WordType":"은어",
+          "WordStructure":"축약어",
+          "WordDefine":"플레이어의 적대적인 npc 혹은 몬스터를 칭함 / 'mobile character'의 약자 였으나 현재는 다른 의미로 사용됨",
+          "WordFell":"중립",
+          "WordMean":"감정없음"
+        },
+        {
+          "Word":"아이템",
+          "WordType":"은어",
+          "WordStructure":"파생어",
+          "WordDefine":"일반 사전에선 ‘항목’ ‘물품’ 등으로 번역되는 영어 단어지만, 『게임』은 ‘게임 플레이를 통해 획득할 수 있는 가상의 물건 또는 대상’란 뜻",
+          "WordFell":"중립",
+          "WordMean":"감정없음"
+        }
+      ]
+    },
+    {
+      "Speaker":"5002",
+      "SpeakerText":"뉴비들한테 진짜 유익한 방송이겠다. 나 처음 시작할 땐 하나도 모르겠어가지고 너무 복잡했었는데 말이야.",
+      "TextConvert":"초보자들한테 진짜 유익한 방송이겠다. 나 처음 시작할땐 하나도 모르겠어가지고 너무 복잡했었는데 말이야.",
+      "StartTime":107.48,
+      "EndTime":118.54,
+      "SpeakTime":11.06,
+      "WordInfo":[
+        {
+          "Word":"뉴비",
+          "WordType":"은어",
+          "WordStructure":"기타",
+          "WordDefine":"new be' 의 한글대체어로서 -초보자- 라는 뜻을 가지고 있다.",
+          "WordFell":"중립",
+          "WordMean":"감정없음"
+        }
+      ]
+    },
+    {
+      "Speaker":"4002",
+      "SpeakerText":"맞아. 나도 처음하는 직업이라 조낸 머리 아플줄 알았는데 그 사람 방송보면서 하니까 엄청 수월해지더라고.",
+      "TextConvert":"맞아. 나도 처음하는 직업이라 굉장히 머리 아플줄 알았는데 그사람 방송보면서 하니까 엄청 수월해지더라고.",
+      "StartTime":118.98,
+      "EndTime":128.539,
+      "SpeakTime":9.559,
+      "WordInfo":[
+        {
+          "Word":"조낸",
+          "WordType":"속어",
+          "WordStructure":"기타",
+          "WordDefine":"정말 매우 진짜 굉장히 라는 뜻으로 비속어인 '존나' 와 같은 표현",
+          "WordFell":"중립",
+          "WordMean":"감정없음"
+        }
+      ]
+    },
+    {
+      "Speaker":"5002",
+      "SpeakerText":"근데 너 옛날에는 베메만 키울거라고 하지 않았어? 왜 갑자기 새로운 직업을 키우는 거야?",
+      "TextConvert":"근데 너 옛날에는 배틀 메이지만 키울거라고 하지 않았어? 왜 갑자기 새로운 직업을 키우는거야?",
+      "StartTime":129.58,
+      "EndTime":138.54,
+      "SpeakTime":8.96,
+      "WordInfo":[
+        {
+          "Word":"배메",
+          "WordType":"은어",
+          "WordStructure":"축약어",
+          "WordDefine":"배틀메이지(Battle Mage)'의 준말\n창작물 속에서 등장하는 직업의 일종으로, 직역하면 '싸움(특히 백병전 + 격투전)의 마법사'",
+          "WordFell":"중립",
+          "WordMean":"감정없음"
+        }
+      ]
+    },
+    {
+      "Speaker":"4002",
+      "SpeakerText":"익게에서 본건데 말이야, 숍이 요즘 엄청나게 세졌다고 하더라고. 내주변 친구들도 많이 키우고있고 말야. 그래서 이참에 나도 한번 키워볼려고.",
+      "TextConvert":"익명게시판에서 본건데 말이야. 비숍이 요즘 엄청나게 세졌다고 하더라고. 내주변 친구들도 많이 키우고있고 말야. 그래서 이참에 나도 한번 키워볼려고.",
+      "StartTime":139.18,
+      "EndTime":151.24,
+      "SpeakTime":12.06,
+      "WordInfo":[
+        {
+          "Word":"익게",
+          "WordType":"줄임말",
+          "WordStructure":"축약어",
+          "WordDefine":"익명 게시판'의 준말",
+          "WordFell":"중립",
+          "WordMean":"감정없음"
+        },
+        {
+          "Word":"숍",
+          "WordType":"은어",
+          "WordStructure":"축약어",
+          "WordDefine":"메이플에 등장하는 '비숍'이라는 직업을 숍으로 줄인말 / 가톨릭에서는 '주교'라는 뜻을 가지고 있다",
+          "WordFell":"중립",
+          "WordMean":"감정없음"
+        }
+      ]
+    },
+    {
+      "Speaker":"5002",
+      "SpeakerText":"그래 재밌겠다. 하긴 너가 키우던 거도 마법사니까 조금만 하면 익숙해질수 있겠네.",
+      "TextConvert":"그래 재밌겠다. 하긴 너가 키우던거도 마법사니까 조금만 하면 익숙해질수 있겠네.",
+      "StartTime":152.38,
+      "EndTime":162.04,
+      "SpeakTime":9.66,
+      "WordInfo":null
+    },
+    {
+      "Speaker":"4002",
+      "SpeakerText":"너도 시작해보는거 어때? 핫타임도 자주하고 있고, 그거 말고도 렙업도와주는 행사들도 하고있으니까 시작하는데 크게 어렵진 않을거야.",
+      "TextConvert":"너도 시작해보는거 어때? , 대놓고 동시 접속자 수 최대화를 노린 수법 이벤트도 자주하고 있고 그거 말고도 지위나 품질, 능력 따위를 높이는걸 도와주는 행사들도 하고있으니까 시작하는데 크게 어렵진 않을거야.",
+      "StartTime":162.68,
+      "EndTime":174.19,
+      "SpeakTime":11.51,
+      "WordInfo":[
+        {
+          "Word":"핫타임",
+          "WordType":"은어",
+          "WordStructure":"합성어",
+          "WordDefine":"hot과 time을 합친 말 /  대규모 업데이트 기간이나 심심할 때 진행하던 이벤트로, 대놓고 동시 접속자 수 최대화를 노린 수법이다.",
+          "WordFell":"중립",
+          "WordMean":"감정없음"
+        },
+        {
+          "Word":"렙업",
+          "WordType":"줄임말",
+          "WordStructure":"합성어",
+          "WordDefine":"레벨+업의 준말 / 지위나 품질, 능력 따위를 높임. 또는 그렇게 됨.",
+          "WordFell":"긍정",
+          "WordMean":"선의"
+        }
+      ]
+    },
+    {
+      "Speaker":"5002",
+      "SpeakerText":"나는 근데 초딩때부터 하던게임 있어가지고. 그거할 시간이 없다. 조낸 미안해",
+      "TextConvert":"나는 근데 초등학생때부터 하던게임 있어가지고. 그거할 시간이 없다. 매우 미안해",
+      "StartTime":175.13,
+      "EndTime":183.49,
+      "SpeakTime":8.36,
+      "WordInfo":[
+        {
+          "Word":"초딩",
+          "WordType":"은어",
+          "WordStructure":"혼성어",
+          "WordDefine":"모바일이나 인터넷상에서, `초등학생'을 이르는 말.",
+          "WordFell":"중립",
+          "WordMean":"감정없음"
+        },
+        {
+          "Word":"조낸",
+          "WordType":"속어",
+          "WordStructure":"기타",
+          "WordDefine":"정말 매우 진짜 굉장히 라는 뜻으로 비속어인 '존나' 와 같은 표현",
+          "WordFell":"중립",
+          "WordMean":"감정없음"
+        }
+      ]
+    },
+    {
+      "Speaker":"4002",
+      "SpeakerText":"아 너 아직 스타한다고 했었나? 근데 나는 뇌지컬이 딸려서 그런지 그거 도저히 못하겠던데. 너는 잘하나보다",
+      "TextConvert":"아 너 아직 스타 크래프트한다고 했었나? 근데 나는 판단력과 게임 운영이 뛰어난 정도가 딸려서 그런지 그거 도저히 못하겠던데. 너는 잘하나보다",
+      "StartTime":184.08,
+      "EndTime":194.24,
+      "SpeakTime":10.16,
+      "WordInfo":[
+        {
+          "Word":"스타",
+          "WordType":"줄임말",
+          "WordStructure":"축약어",
+          "WordDefine":"게임 \"스타 크래프트\"의 줄임말",
+          "WordFell":"중립",
+          "WordMean":"감정없음"
+        },
+        {
+          "Word":"뇌지컬",
+          "WordType":"은어",
+          "WordStructure":"혼성어",
+          "WordDefine":"뇌+피지컬 / 주로 게임에서, 판단력과 게임 운영이 뛰어남.",
+          "WordFell":"중립",
+          "WordMean":"감정없음"
+        }
+      ]
+    },
+    {
+      "Speaker":"5002",
+      "SpeakerText":"나도 처음엔 엄청 못했었어. 근데 인방보면서 하나하나 배운거지. 나는 나뇽이라는 사람 방송 매일 챙겨보고있어. 스타하면서 방송하는 사람인데 엄청 잘하더라고.",
+      "TextConvert":"나도 처음엔 엄청 못했었어. 근데 인터넷 방송보면서 하나하나 배운거지. 나는 나뇽이라는 사람 방송 매일 챙겨보고있어. 스타크래프트하면서 방송하는 사람인데 엄청 잘하더라고",
+      "StartTime":195.28,
+      "EndTime":213.34,
+      "SpeakTime":18.06,
+      "WordInfo":[
+        {
+          "Word":"인방",
+          "WordType":"줄임말",
+          "WordStructure":"축약어",
+          "WordDefine":"인터넷 방송'의 준말",
+          "WordFell":"중립",
+          "WordMean":"감정없음"
+        },
+        {
+          "Word":"스타",
+          "WordType":"줄임말",
+          "WordStructure":"축약어",
+          "WordDefine":"게임 \"스타 크래프트\"의 줄임말",
+          "WordFell":"중립",
+          "WordMean":"감정없음"
+        }
+      ]
+    },
+    {
+      "Speaker":"4002",
+      "SpeakerText":"스타알려주는 사람인가 보구나? 근데 나는 발컨이라 그런지 도저히 감이 안오던데. 나도 잘이해할수 있을까. 괜히 겁나기 시작하네.",
+      "TextConvert":"스타 크래프트알려주는 사람인가 보구나? 근데 나는 발로 하는 컨트롤이라 그런지 도저히 감이 안오던데. 나도 잘이해할수 있을까. 괜히 겁나기 시작하네",
+      "StartTime":213.88,
+      "EndTime":225.24,
+      "SpeakTime":11.36,
+      "WordInfo":[
+        {
+          "Word":"스타",
+          "WordType":"줄임말",
+          "WordStructure":"축약어",
+          "WordDefine":"게임 \"스타 크래프트\"의 줄임말",
+          "WordFell":"중립",
+          "WordMean":"감정없음"
+        },
+        {
+          "Word":"발컨",
+          "WordType":"줄임말",
+          "WordStructure":"축약어",
+          "WordDefine":"발로 하는 컨트롤의 줄임말. / 플레이어가 레벨이나 장비에 어울리지 않게 어설픈 실력을 보여줄 경우 손으로 하는게 아니라 발로 하는 것 같다며 비꼬는 말",
+          "WordFell":"부정",
+          "WordMean":"싫어함"
+        }
+      ]
+    },
+    {
+      "Speaker":"5002",
+      "SpeakerText":"그사람은 발컨들한테 도움될 꿀정보도 많이주니까.. 너같은 초보들도 잘 배울수 있어. 그러니까 걱정하지마. 나도 처음에 맨날 지고 그랬는데 그사람 방송보면서 연습하다보니 자주 이기게 되더라고.",
+      "TextConvert":"그사람은 발로 하는 컨트롤들한테 도움될 유익하고 좋은 정보도 많이주니까.. 너같은 초보들도 잘 배울수 있어. 그러니까 걱정하지마. 나도 처음에 맨날 지고 그랬는데 그사람 방송보면서 연습하다보니 자주 이기게 되더라고",
+      "StartTime":226.33,
+      "EndTime":247.39,
+      "SpeakTime":21.06,
+      "WordInfo":[
+        {
+          "Word":"발컨",
+          "WordType":"줄임말",
+          "WordStructure":"축약어",
+          "WordDefine":"발로 하는 컨트롤의 줄임말. / 플레이어가 레벨이나 장비에 어울리지 않게 어설픈 실력을 보여줄 경우 손으로 하는게 아니라 발로 하는 것 같다며 비꼬는 말",
+          "WordFell":"부정",
+          "WordMean":"싫어함"
+        },
+        {
+          "Word":"꿀정보",
+          "WordType":"유행어",
+          "WordStructure":"합성어",
+          "WordDefine":"꿀+정보/ 유익하고 좋은 정보를 뜻한다.",
+          "WordFell":"긍정",
+          "WordMean":"좋음"
+        }
+      ]
+    },
+    {
+      "Speaker":"4002",
+      "SpeakerText":"일타강사 수준으로 잘 가르쳐주나보구나. 근데 혹시 역관광하는 방법들도 알려주고 그래? 나는 저번에 다 이긴판 방심하다가 졌거든.",
+      "TextConvert":"수강생이나 학생들에게 가장 인기 많으면서 교육을 잘 가르치는 강사 수준으로 잘 가르쳐주나보구나. 근데 혹시 유리한 상황에 있는 플레이어가 격차를 벌리기 위해\n 불필요한 플레이를 한 결과 역전패하는 방법들도 알려주고 그래? 나는 저번에 다 이긴판 방심하다가 졌거든",
+      "StartTime":247.98,
+      "EndTime":260.49,
+      "SpeakTime":12.51,
+      "WordInfo":[
+        {
+          "Word":"일타강사",
+          "WordType":"줄임말",
+          "WordStructure":"축약어",
+          "WordDefine":"1등스타강사의 줄임말/ 수강생이나 학생들에게 가장 인기 많으면서 교육을 잘 가르치는 강사",
+          "WordFell":"긍정",
+          "WordMean":"선의"
+        },
+        {
+          "Word":"역관광",
+          "WordType":"은어",
+          "WordStructure":"기타",
+          "WordDefine":" 게임에서 압도적으로 유리한 상황에 있는 플레이어가 격차를 벌리기 위해\n 불필요한 플레이를 한 결과 역전패하는 경우",
+          "WordFell":"부정",
+          "WordMean":"싫어함"
+        }
+      ]
+    },
+    {
+      "Speaker":"5002",
+      "SpeakerText":"응 너같은 사람들을 위한 조언도 조낸 많이해. 게임하는데 방해되는 나쁜 쿠세들도 잡아주고 말이야.",
+      "TextConvert":"응 너같은 사람들을 위한 조언도 굉장히 많이해. 게임하는데 방해되는 나쁜 고치기 힘든 나쁜 버릇들도 잡아주고 말이야.",
+      "StartTime":261.529,
+      "EndTime":272.64,
+      "SpeakTime":11.111,
+      "WordInfo":[
+        {
+          "Word":"조낸",
+          "WordType":"속어",
+          "WordStructure":"기타",
+          "WordDefine":"정말 매우 진짜 굉장히 라는 뜻으로 비속어인 '존나' 와 같은 표현",
+          "WordFell":"중립",
+          "WordMean":"감정없음"
+        },
+        {
+          "Word":"쿠세",
+          "WordType":"은어",
+          "WordStructure":"파생어",
+          "WordDefine":" '고치기 힘든 나쁜 버릇'을 뜻한다. / 일본말이다.",
+          "WordFell":"부정",
+          "WordMean":"싫어함"
+        }
+      ]
+    },
+    {
+      "Speaker":"4002",
+      "SpeakerText":"너 얘기 들어보니까 진짜 유익하긴 한거보다. 나중에 방송 볼 수 있는 주소 좀 알려줄래?",
+      "TextConvert":"너 얘기 들어보니까 진짜 유익하긴 한거보다. 나중에 방송 볼 수 있는 주소 좀 알려줄래?",
+      "StartTime":273.58,
+      "EndTime":280.74,
+      "SpeakTime":7.16,
+      "WordInfo":null
+    },
+    {
+      "Speaker":"5002",
+      "SpeakerText":"응 내가 카톡으로 보내줄게,",
+      "TextConvert":"응 내가  카카오톡으로 보내줄게,",
+      "StartTime":281.78,
+      "EndTime":285.74,
+      "SpeakTime":3.96,
+      "WordInfo":[
+        {
+          "Word":"카톡",
+          "WordType":"유행어",
+          "WordStructure":"축약어",
+          "WordDefine":"주로 쓰는 메신저 앱인 카카오톡(kakao talk)의 준말",
+          "WordFell":"중립",
+          "WordMean":"감정없음"
+        }
+      ]
+    },
+    {
+      "Speaker":"4002",
+      "SpeakerText":"아냐 나 페메로 해줘. 내가 지금 카톡을 확인 못하거든.",
+      "TextConvert":"아냐 나 페이스북 메시지로 해줘. 내가 지금 카카오톡을 확인 못하거든",
+      "StartTime":286.28,
+      "EndTime":291.99,
+      "SpeakTime":5.71,
+      "WordInfo":[
+        {
+          "Word":"페메",
+          "WordType":"줄임말",
+          "WordStructure":"축약어",
+          "WordDefine":"페이스북(sns) 메시지 의 줄임말",
+          "WordFell":"중립",
+          "WordMean":"감정없음"
+        },
+        {
+          "Word":"카톡",
+          "WordType":"유행어",
+          "WordStructure":"축약어",
+          "WordDefine":"주로 쓰는 메신저 앱인 카카오톡(kakao talk)의 준말",
+          "WordFell":"중립",
+          "WordMean":"감정없음"
+        }
+      ]
+    },
+    {
+      "Speaker":"5002",
+      "SpeakerText":"알았어. 그럼 나중에 집가서 보내줄게.",
+      "TextConvert":"알았어. 그럼 나중에 집가서 보내줄게.",
+      "StartTime":293.13,
+      "EndTime":297.39,
+      "SpeakTime":4.26,
+      "WordInfo":null
+    },
+    {
+      "Speaker":"4002",
+      "SpeakerText":"그래 고마워,",
+      "TextConvert":"그래 고마워,",
+      "StartTime":297.48,
+      "EndTime":298.94,
+      "SpeakTime":1.46,
+      "WordInfo":null
+    }
+  ]
+}
