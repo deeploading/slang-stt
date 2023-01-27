@@ -554,7 +554,7 @@ dictionary = {"unk_token": "[UNK]",
               "replace_word_delimiter_char": " ", 
               "tokenizer_class": "Wav2Vec2CTCTokenizer"}
 json_object = json.dumps(dictionary, indent=4)
-with openslang_model+"/tokenizer_config.json", "w") as outfile:
+with open(slang_model+"/tokenizer_config.json", "w") as outfile:
     outfile.write(json_object)
 
 dictionary = {"bos_token": "<s>", "eos_token": "</s>", "unk_token": "[UNK]", "pad_token": "[PAD]"}
