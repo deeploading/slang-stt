@@ -3,7 +3,7 @@
 ## 모델 설명
 ![image](https://user-images.githubusercontent.com/68102387/213361376-2fd26a2c-285a-4692-abd8-59cd8a436f4c.png)
 
-slang-stt(speech to text) 모델은 은어∙속어를 음성을 인식하여 텍스트로 변환하는 한국어 음성모델입니다. 은어와 속어가 포함되어 있는 연령대별 특징적 발화 음성 데이터를 전사하여 텍스트로 나타냅니다. 
+slang-stt(speech to text) 모델은 은어∙속어를 포함한 음성을 인식하여 텍스트로 변환하는 한국어 음성모델입니다. 은어와 속어가 포함되어 있는 연령대별 특징적 발화 음성 데이터를 전사하여 텍스트로 나타냅니다. 
 
 ## 모델 아키텍처
 ![image](https://user-images.githubusercontent.com/68102387/213350380-cbbedef0-aac6-40e7-a440-ec1c11b19273.jpg)
